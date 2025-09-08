@@ -4,12 +4,12 @@
 
 /* Basic reset and vars */
 :root{
-  --bg: #7a2b40;
-  --card: #E7FBB4;
+  --bg: #5a536c;
+  --card: #B9B4C7;
   --muted:#3a1721;
   --accent: #FFBE98;
   --primary: #1f2937;
-  --success: #16a34a;
+  --success: #FAF0E6;
   --danger: #ef4444;
   --shadow: 0 6px 16px rgba(31,41,55,0.08);
   --radius: 10px;
@@ -83,7 +83,7 @@ body{
   border:solid; padding:8px 12px; border-radius:8px; cursor:pointer;
   background:var(--accent); color:#3A0519; font-weight:600;
 }
-.btn.ghost { background:#78B9B5; border: solid ; color:#3A0519; }
+.btn.ghost { background:#FAF0E6; border: solid ; color:#3A0519; }
 .btn.danger { background:var(--danger); color:white; }
 
 /* Dashboard layout */
@@ -113,10 +113,12 @@ body{
   border:1px solid transparent;
   cursor:pointer;
   font-weight:600;
+  color:#10122c;
 }
 .sidebar .nav-btn.active {
   background: linear-gradient(90deg, #ffe8b5, #fff2d9);
   border-color:#3A0519;
+  color: #3A0519;
 }
 
 /* Content area */
@@ -160,7 +162,7 @@ body{
   gap:10px;
 }
 .card {
-  background:#b3b567; padding:12px; border: solid 1px #3A0519;border-radius:12px; box-shadow: 0 6px 14px rgba(0,0,0,0.04);
+  background:#D3DAD9; padding:12px; border: solid 1px #3A0519;border-radius:12px; box-shadow: 0 6px 14px rgba(0,0,0,0.04);
   display:flex; flex-direction:column; gap:10px; align-items:center; text-align:center;
 }
 .card .meta { font-weight:400; font-size:14px; color:var(--muted); }
@@ -168,7 +170,7 @@ body{
 
 /* Table for edit view */
 .table { width:100%; border-collapse:collapse; }
-.table thead { background:rgb(176, 233, 62);  }
+.table thead { background:#FFD66B;  }
 .table th, .table td { padding:10px 8px; border-bottom:1px solid #3A0519; text-align:left; }
 
 /* Loader */
