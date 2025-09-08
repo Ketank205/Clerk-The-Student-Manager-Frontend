@@ -10,7 +10,7 @@ import AddStudentsView from "./views/AddStudentsView";
 import DisplayStudentsView from "./views/DisplayStudentsView";
 import EditStudentsView from "./views/EditStudentsView";
 import CoursesView from "./views/CoursesView";
-import "./App.css";
+
 
 /**
  * App Component
